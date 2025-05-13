@@ -7,6 +7,10 @@
         <style>
             @import URL(https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:700,800,900);
 
+
+            .container, .container, body {
+                border: 1px solid red;
+            }
             button {
                 border: none;
                 padding: 0px;
@@ -36,9 +40,11 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                box-sizing: border-box;
             }
 
             .content {
+                margin: 0 auto;
                 background-color: lightgrey;
                 width: 90%;
                 max-width: 300px;
